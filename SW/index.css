@@ -9,11 +9,12 @@ html {
 h1{
     color: #FFE81F;
 }
+
 div{
     margin: auto;
     font-family: "News Cycle", sans-serif;
     font-weight: 700;
-    color: #ff6;
+    color: #FFE81F;
     text-align: center;
     letter-spacing: .1em;
     line-height: 1.1em;
