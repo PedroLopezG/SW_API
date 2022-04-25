@@ -23,3 +23,16 @@ function obtenerVehicles(id){
     return fetch(URL)
         .then(r => r.json())
 }
+
+function obtenerPlanets(id){
+    let URL = 'https://swapi.dev/api/planets/${id}'
+    return fetch(URL)
+        .then(r => r.json())
+}
+
+function obtenerSpecies(id){
+    let URL = 'https://swapi.dev/api/species/${id}'
+    return fetch(URL)
+        .then(r => r.json())
+}
+

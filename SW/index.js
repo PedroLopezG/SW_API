@@ -1,9 +1,5 @@
-const API = "https://swapi.dev/api/"
-const HTMLRes = document.querySelector("#app");
+"use-strict";
+
+let dom = {}
 
 
-
-fetch('${API}films/').then((response => response.json()).then((films)=>{
-    
-
-}))
