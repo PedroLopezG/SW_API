@@ -1,9 +1,9 @@
 "use strict";
 
-export function obtenerPeliculas(id){
-    let URL = 'https://swapi.dev/api/films/${id}'
+export function obtenerPeliculas(){
+    let URL = 'https://swapi.dev/api/films/'
     return fetch(URL)
-        .then(r => r.json())
+        .then((r) => r.json())
 }
 
 export function obtenerPersonaje(id){
